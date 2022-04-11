@@ -47,7 +47,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  profilePictureLink: "ddr3_jram",
+  profilePictureLink: require("../editable-stuff/jeremiah.jpg"),
   imageSize: 375,
   message:
     "My name is Jeremiah Bonney and I'm a Senior Software Engineer at Bloomberg LP. I work on creating open source distributed build tools using the Remote Execution API. You can find most of our projects at https://gitlab.com/BuildGrid including BuildGrid, a REAPI server implementation and RECC, a caching compiler wrapper which leverages the REAPI to distribute and cache compilations.",
