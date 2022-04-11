@@ -42,10 +42,10 @@ const Project = ({ heading, username, length, specfic }) => {
       // adding specified repos
       try {
         for (let repoName of specfic) {
-          if (repoName.source == "github") {
+          if (repoName.source === "github") {
             let github_response = await axios.get(`${specficReposAPI}/${repoName.org}/${repoName.repo}`);
             repoList.push(github_response.data);
-          } else if (repoName.source == "gitlab") {
+          } else if (repoName.source === "gitlab") {
             let gitlab_response = await axios.get(`${gitlabSpecificRepoAPI}/${repoName.org}%2F${repoName.repo}`);
             // Gitlab doesn't return the language URL in the response, but it's at a well known location
             gitlab_response.data.languages_url = `${gitlabSpecificRepoAPI}/${repoName.org}%2F${repoName.repo}/languages`;
@@ -60,7 +60,7 @@ const Project = ({ heading, username, length, specfic }) => {
     } catch (error) {
       console.error(error.message);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+  }, [allReposAPI, length, specfic, specficReposAPI, gitlabSpecificRepoAPI]);
 
   useEffect(() => {
     fetchRepos();
