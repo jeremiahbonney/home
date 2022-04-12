@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5497eb8.chunk.css",
-    "main.js": "/static/js/main.8d51a412.chunk.js",
-    "main.js.map": "/static/js/main.8d51a412.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/js/2.fcd16c36.chunk.js": "/static/js/2.fcd16c36.chunk.js",
-    "static/js/2.fcd16c36.chunk.js.map": "/static/js/2.fcd16c36.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.94b2739e0f9ce83fa2252e5e2c962b96.js": "/precache-manifest.94b2739e0f9ce83fa2252e5e2c962b96.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f5497eb8.chunk.css.map": "/static/css/main.f5497eb8.chunk.css.map",
-    "static/js/2.fcd16c36.chunk.js.LICENSE.txt": "/static/js/2.fcd16c36.chunk.js.LICENSE.txt",
-    "static/media/jeremiah.jpg": "/static/media/jeremiah.188ca732.jpg",
-    "static/media/resume.pdf": "/static/media/resume.ec9721a8.pdf"
+    "main.css": "https://jbonney.dev/static/css/main.f5497eb8.chunk.css",
+    "main.js": "https://jbonney.dev/static/js/main.3cae69e4.chunk.js",
+    "main.js.map": "https://jbonney.dev/static/js/main.3cae69e4.chunk.js.map",
+    "runtime-main.js": "https://jbonney.dev/static/js/runtime-main.1ccb15c3.js",
+    "runtime-main.js.map": "https://jbonney.dev/static/js/runtime-main.1ccb15c3.js.map",
+    "static/js/2.fcd16c36.chunk.js": "https://jbonney.dev/static/js/2.fcd16c36.chunk.js",
+    "static/js/2.fcd16c36.chunk.js.map": "https://jbonney.dev/static/js/2.fcd16c36.chunk.js.map",
+    "index.html": "https://jbonney.dev/index.html",
+    "precache-manifest.8976266f0136ae47f6ff88036f3ffe69.js": "https://jbonney.dev/precache-manifest.8976266f0136ae47f6ff88036f3ffe69.js",
+    "service-worker.js": "https://jbonney.dev/service-worker.js",
+    "static/css/main.f5497eb8.chunk.css.map": "https://jbonney.dev/static/css/main.f5497eb8.chunk.css.map",
+    "static/js/2.fcd16c36.chunk.js.LICENSE.txt": "https://jbonney.dev/static/js/2.fcd16c36.chunk.js.LICENSE.txt",
+    "static/media/jeremiah.jpg": "https://jbonney.dev/static/media/jeremiah.188ca732.jpg",
+    "static/media/resume.pdf": "https://jbonney.dev/static/media/resume.ec9721a8.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.554504a0.js",
+    "static/js/runtime-main.1ccb15c3.js",
     "static/js/2.fcd16c36.chunk.js",
     "static/css/main.f5497eb8.chunk.css",
-    "static/js/main.8d51a412.chunk.js"
+    "static/js/main.3cae69e4.chunk.js"
   ]
 }
